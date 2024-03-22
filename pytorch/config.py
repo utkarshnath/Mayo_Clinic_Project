@@ -24,11 +24,11 @@ class models_genesis_config:
     weights = None
     batch_size = 6
     optimizer = "sgd"
-    workers = 10
+    workers = 32
     max_queue_size = workers * 4
     save_samples = "png"
-    nb_epoch = 10000
-    patience = 50
+    nb_epoch = 100
+    patience = 20
     lr = 1
 
     # image deformation
@@ -40,7 +40,11 @@ class models_genesis_config:
     flip_rate = 0.4
     
     # logs
-    model_path = "pretrained_weights"
+    # seperate_head - Multiheadmodel
+    # 
+    # model_path = "/data/yyang409/unath/pretrained_weights/classification/SiameseWeighteUnet3D-top-data-2-class-test"
+    # model_path = "/data/yyang409/unath/pretrained_weights/classification/SiameseWeighteUnet3D-top-data-2-class-dense-unet-v3"
+    model_path = "/data/yyang409/unath/pretrained_weights/classification/kras-unet-standard-v6"
     if not os.path.exists(model_path):
         os.makedirs(model_path)
     logs_path = os.path.join(model_path, "Logs")

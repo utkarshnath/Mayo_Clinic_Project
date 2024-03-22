@@ -145,23 +145,6 @@ class UNet3DClassification(nn.Module):
         self.down_tr128 = DownTransition(64,1,act)
         self.down_tr256 = DownTransition(128,2,act)
         self.down_tr512 = DownTransition(256,3,act)
-
-    def forward(self, x):
-        self.out64 = self.down_tr64(x)
-        self.out128 = self.down_tr128(self.out64)
-        self.out256 = self.down_tr256(self.out128)
-        self.out512 = self.down_tr512(self.out256)
-        return self.out512
-
-
-class UNet3DClassificationDense(nn.Module):
-    def __init__(self, n_class=1, act='relu'):
-        super(UNet3DClassificationDense, self).__init__()
-
-        self.down_tr64 = DownTransition(1,0,act)
-        self.down_tr128 = DownTransition(64,1,act)
-        self.down_tr256 = DownTransition(128,2,act)
-        self.down_tr512 = DownTransition(256,3,act)
         self.conv1 = nn.Conv3d(64+128, 128, 1)
         self.conv2 = nn.Conv3d(64+128+256, 256, 1)
 
@@ -171,15 +154,13 @@ class UNet3DClassificationDense(nn.Module):
 
         out64 = F.interpolate(self.out64, (self.out128.shape[2], self.out128.shape[3], self.out128.shape[4]))
         out128 = torch.cat((out64, self.out128), dim=1)
-        self.out128 = self.conv1(out128)
-        self.out256 = self.down_tr256(self.out128)
+        out128 = self.conv1(out128)
+        self.out256 = self.down_tr256(out128)
 
         out64 = F.interpolate(self.out64, (self.out256.shape[2], self.out256.shape[3], self.out256.shape[4]))
         out128 = F.interpolate(self.out128, (self.out256.shape[2], self.out256.shape[3], self.out256.shape[4]))
         out256 = torch.cat((out64, out128, self.out256), dim=1)
-        self.out256 = self.conv2(out256)
+        out256 = self.conv2(out256)
 
-        self.out512 = self.down_tr512(self.out256)
+        self.out512 = self.down_tr512(out256)
         return self.out512
-
-

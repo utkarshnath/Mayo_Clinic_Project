@@ -1,0 +1,83 @@
+14c74e06  :  [tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0')]
+14c74e06  :  [tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0')]
+No
+
+cd18af61  :  [tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0')]
+cd18af61  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+68f6de90-Y1  :  [tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0')]
+68f6de90-Y1  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+176a515f  :  [tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0')]
+176a515f  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+45a2779b  :  [tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0')]
+45a2779b  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+No
+
+235366ac  :  [tensor(1., device='cuda:0'), tensor(0., device='cuda:0')]
+235366ac  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+4d161ec4  :  [tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0')]
+4d161ec4  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+cbcb993c  :  [tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0')]
+cbcb993c  :  [tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0')]
+Yes
+
+278c0214  :  [tensor(0., device='cuda:0'), tensor(1., device='cuda:0')]
+278c0214  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+7c4b3dda  :  [tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0')]
+7c4b3dda  :  [tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0')]
+Yes
+
+11af61e5  :  [tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0')]
+11af61e5  :  [tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0')]
+Yes
+
+f5d9c4ac  :  [tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0')]
+f5d9c4ac  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+f8f0f252  :  [tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0')]
+f8f0f252  :  [tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0')]
+Yes
+
+be380a7b  :  [tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0')]
+be380a7b  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+47e30b53  :  [tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0')]
+47e30b53  :  [tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0'), tensor(1, device='cuda:0')]
+No
+
+5704da3d  :  [tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0')]
+5704da3d  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+7bf655c0-Y1  :  [tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0')]
+7bf655c0-Y1  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+No
+
+7bf655c0-Y2  :  [tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0')]
+7bf655c0-Y2  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+No
+
+c02aaf97  :  [tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0')]
+c02aaf97  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+No
+
+6b2b7141  :  [tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0')]
+6b2b7141  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
+
+68f6de90-Y2  :  [tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(1., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0'), tensor(0., device='cuda:0')]
+68f6de90-Y2  :  [tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0'), tensor(0, device='cuda:0')]
+Yes
